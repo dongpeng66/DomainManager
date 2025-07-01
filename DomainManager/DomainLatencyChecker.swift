@@ -71,7 +71,7 @@ class DomainLatencyChecker: NSObject {
     // 请求失败时切换域名
     func switchDomain() -> String {
         currentIndex = (currentIndex + 1) % domains.count
-        if currentIndex <= domains.count, !domains.isEmpty {
+        if currentIndex < domains.count, !domains.isEmpty {
             return domains[currentIndex]
         }
         print("切换域名失败没有可用的域名")
