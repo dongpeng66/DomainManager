@@ -1,0 +1,6 @@
+module Pods_DomainManager {
+  umbrella header "Pods-DomainManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

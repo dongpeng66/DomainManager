@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E7F5BFC1F6AFA4A77158DB00A9B8BF /* Socket+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9280F73B7C80E2FACA4198D8169AF /* Socket+Hashable.swift */; };
+		2AC21C0D232D3592CCF62A8B51FC0677 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F963CD82D31CB5974538D46A378C0 /* SocketUtils.swift */; };
+		32694CCB7CFDF83DC397C6D9094770BC /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480833B8AF3BF3EB7627A81BDB49728 /* SocketProtocols.swift */; };
+		332ABA49905055DC0AD45EC00F0C978D /* Pods-DomainManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66417719F30F35116206D86195208B /* Pods-DomainManager-dummy.m */; };
+		377C8236780E05FA2AC2E877C76EB75F /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8433E4C229DFCE12394A1883508A5D7 /* Socket.swift */; };
+		534F18BB2D4B54FEFED1643D5A0EE9DB /* Pods-DomainManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC5C18E9B3E6172DFFBA5B524C7D124 /* Pods-DomainManager-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		668E7749E1DD40A95D8308E5AF9DC97D /* BlueSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD40CA10B2D79FA388626BF7D3997A2 /* BlueSocket-dummy.m */; };
+		B716D1BCD41FA4ECAB7CACE58CACE3B7 /* Socket+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C30C8A4D53284C4B9A5E33B3E2B24F /* Socket+Equatable.swift */; };
+		EBBA0DF073CCACE1A03DA7C07BDD4FE9 /* BlueSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E039E7CE6E92A72F518A4F1696E2A025 /* BlueSocket-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F885E787B450AD3CC7709E6F6576F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F66417719F30F35116206D86195208B /* Pods-DomainManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DomainManager-dummy.m"; sourceTree = "<group>"; };
+		0FC814D734A3E701E1BC7C8FBAE0C641 /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
+		11C30C8A4D53284C4B9A5E33B3E2B24F /* Socket+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+Equatable.swift"; path = "Sources/Socket/Socket+Equatable.swift"; sourceTree = "<group>"; };
+		2EAA4A7F572E0FFFDA0F24140040D388 /* BlueSocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BlueSocket; path = libBlueSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D502EF665D32382257201B044D28CE /* BlueSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.release.xcconfig; sourceTree = "<group>"; };
+		3D2C4931D510D4CA9BB8BDFB58703F8F /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
+		4BC5C18E9B3E6172DFFBA5B524C7D124 /* Pods-DomainManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DomainManager-umbrella.h"; sourceTree = "<group>"; };
+		5BB9280F73B7C80E2FACA4198D8169AF /* Socket+Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+Hashable.swift"; path = "Sources/Socket/Socket+Hashable.swift"; sourceTree = "<group>"; };
+		5E8F963CD82D31CB5974538D46A378C0 /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
+		62F9A08B7BEDD6C42BD35C6AF283DE13 /* Pods-DomainManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DomainManager.modulemap"; sourceTree = "<group>"; };
+		6BD40CA10B2D79FA388626BF7D3997A2 /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
+		8480833B8AF3BF3EB7627A81BDB49728 /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
+		8801237A6DB9C0B896B0F2A2C8F870CE /* Pods-DomainManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DomainManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90626953F6CF21577CDDCCDBC722024E /* BlueSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0F82625F94CD96FFC85A81803386AAF /* Pods-DomainManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomainManager.release.xcconfig"; sourceTree = "<group>"; };
+		C764230367EA399C44C0D6DE8B46739C /* Pods-DomainManager */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-DomainManager"; path = "libPods-DomainManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8433E4C229DFCE12394A1883508A5D7 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
+		E039E7CE6E92A72F518A4F1696E2A025 /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
+		E646BCA859BAB61C8A944CDA34054CD0 /* Pods-DomainManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomainManager.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2FADBF166D447DC5C72AD6D93E8A76 /* Pods-DomainManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DomainManager-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049867ECC81D79A4E61885237C60C4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C3174792EC32F3C25D8178CA4199A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C688EE44F1E6865AB5604C86F99A3A7 /* Pods-DomainManager */ = {
+			isa = PBXGroup;
+			children = (
+				62F9A08B7BEDD6C42BD35C6AF283DE13 /* Pods-DomainManager.modulemap */,
+				8801237A6DB9C0B896B0F2A2C8F870CE /* Pods-DomainManager-acknowledgements.markdown */,
+				FB2FADBF166D447DC5C72AD6D93E8A76 /* Pods-DomainManager-acknowledgements.plist */,
+				0F66417719F30F35116206D86195208B /* Pods-DomainManager-dummy.m */,
+				4BC5C18E9B3E6172DFFBA5B524C7D124 /* Pods-DomainManager-umbrella.h */,
+				E646BCA859BAB61C8A944CDA34054CD0 /* Pods-DomainManager.debug.xcconfig */,
+				C0F82625F94CD96FFC85A81803386AAF /* Pods-DomainManager.release.xcconfig */,
+			);
+			name = "Pods-DomainManager";
+			path = "Target Support Files/Pods-DomainManager";
+			sourceTree = "<group>";
+		};
+		0E47D1A194F4B7858692F3E5C70F3428 /* BlueSocket */ = {
+			isa = PBXGroup;
+			children = (
+				D8433E4C229DFCE12394A1883508A5D7 /* Socket.swift */,
+				11C30C8A4D53284C4B9A5E33B3E2B24F /* Socket+Equatable.swift */,
+				5BB9280F73B7C80E2FACA4198D8169AF /* Socket+Hashable.swift */,
+				8480833B8AF3BF3EB7627A81BDB49728 /* SocketProtocols.swift */,
+				5E8F963CD82D31CB5974538D46A378C0 /* SocketUtils.swift */,
+				D83C4E02E0FA1C062F43293C0352347C /* Support Files */,
+			);
+			name = BlueSocket;
+			path = BlueSocket;
+			sourceTree = "<group>";
+		};
+		34974A6463BDF42EA3E4BDAB7FCC8BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EAA4A7F572E0FFFDA0F24140040D388 /* BlueSocket */,
+				C764230367EA399C44C0D6DE8B46739C /* Pods-DomainManager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3506B82D7D7CBB48CD05E16629FFA96A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E47D1A194F4B7858692F3E5C70F3428 /* BlueSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3506B82D7D7CBB48CD05E16629FFA96A /* Pods */,
+				34974A6463BDF42EA3E4BDAB7FCC8BE0 /* Products */,
+				E83E13370590ADCE6892CB4B9D27FDFB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D83C4E02E0FA1C062F43293C0352347C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2C4931D510D4CA9BB8BDFB58703F8F /* BlueSocket.modulemap */,
+				6BD40CA10B2D79FA388626BF7D3997A2 /* BlueSocket-dummy.m */,
+				0FC814D734A3E701E1BC7C8FBAE0C641 /* BlueSocket-prefix.pch */,
+				E039E7CE6E92A72F518A4F1696E2A025 /* BlueSocket-umbrella.h */,
+				90626953F6CF21577CDDCCDBC722024E /* BlueSocket.debug.xcconfig */,
+				35D502EF665D32382257201B044D28CE /* BlueSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueSocket";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E83E13370590ADCE6892CB4B9D27FDFB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C688EE44F1E6865AB5604C86F99A3A7 /* Pods-DomainManager */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D3294746C3F0E72B2426D83DC820320 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534F18BB2D4B54FEFED1643D5A0EE9DB /* Pods-DomainManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE66DCE36B05401ED19972439EB3AB0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBA0DF073CCACE1A03DA7C07BDD4FE9 /* BlueSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B0F49D219577202B2D0836BCCC4FBD7 /* Pods-DomainManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F7DD20145DF9B520D88E5B80A80A09 /* Build configuration list for PBXNativeTarget "Pods-DomainManager" */;
+			buildPhases = (
+				2D3294746C3F0E72B2426D83DC820320 /* Headers */,
+				9B99DEF7B43BF14D782D7B00A0492B5F /* Sources */,
+				13C3174792EC32F3C25D8178CA4199A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3D307A10C6712173C789CFEFE2B610 /* PBXTargetDependency */,
+			);
+			name = "Pods-DomainManager";
+			productName = "Pods-DomainManager";
+			productReference = C764230367EA399C44C0D6DE8B46739C /* Pods-DomainManager */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB5129260325D8588D0D894DBD6B879 /* Build configuration list for PBXNativeTarget "BlueSocket" */;
+			buildPhases = (
+				BE66DCE36B05401ED19972439EB3AB0A /* Headers */,
+				C66E0E92C82B2567907CAB511686F8A8 /* Sources */,
+				049867ECC81D79A4E61885237C60C4AA /* Frameworks */,
+				5B9529E052F4D9C01AECB652F867EDCA /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSocket;
+			productName = BlueSocket;
+			productReference = 2EAA4A7F572E0FFFDA0F24140040D388 /* BlueSocket */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34974A6463BDF42EA3E4BDAB7FCC8BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */,
+				1B0F49D219577202B2D0836BCCC4FBD7 /* Pods-DomainManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B9529E052F4D9C01AECB652F867EDCA /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Socket/BlueSocket.modulemap",
+				"${PODS_ROOT}/Headers/Public/Socket/BlueSocket-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/BlueSocket-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Socket/BlueSocket.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Socket/BlueSocket-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B99DEF7B43BF14D782D7B00A0492B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332ABA49905055DC0AD45EC00F0C978D /* Pods-DomainManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66E0E92C82B2567907CAB511686F8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668E7749E1DD40A95D8308E5AF9DC97D /* BlueSocket-dummy.m in Sources */,
+				377C8236780E05FA2AC2E877C76EB75F /* Socket.swift in Sources */,
+				B716D1BCD41FA4ECAB7CACE58CACE3B7 /* Socket+Equatable.swift in Sources */,
+				09E7F5BFC1F6AFA4A77158DB00A9B8BF /* Socket+Hashable.swift in Sources */,
+				32694CCB7CFDF83DC397C6D9094770BC /* SocketProtocols.swift in Sources */,
+				2AC21C0D232D3592CCF62A8B51FC0677 /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3D307A10C6712173C789CFEFE2B610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = 4F885E787B450AD3CC7709E6F6576F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CEB9E59CE7D1A128FA63602C2AF1093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F82625F94CD96FFC85A81803386AAF /* Pods-DomainManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DomainManager/Pods-DomainManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13879443D9B4DFC14D268CAF8B5D0FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E646BCA859BAB61C8A944CDA34054CD0 /* Pods-DomainManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DomainManager/Pods-DomainManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA6170CEB71301E655F9D2B57C633603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90626953F6CF21577CDDCCDBC722024E /* BlueSocket.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/Socket/BlueSocket.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C200BF048D5F9AFFBF13883B1D62AD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D502EF665D32382257201B044D28CE /* BlueSocket.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/Socket/BlueSocket.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = BlueSocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F7DD20145DF9B520D88E5B80A80A09 /* Build configuration list for PBXNativeTarget "Pods-DomainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13879443D9B4DFC14D268CAF8B5D0FBC /* Debug */,
+				0CEB9E59CE7D1A128FA63602C2AF1093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB5129260325D8588D0D894DBD6B879 /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6170CEB71301E655F9D2B57C633603 /* Debug */,
+				C200BF048D5F9AFFBF13883B1D62AD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

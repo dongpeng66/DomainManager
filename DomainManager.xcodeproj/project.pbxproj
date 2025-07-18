@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E1315A43995003E8526D6A1 /* libPods-DomainManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D45D4252ECE527A667223FB /* libPods-DomainManager.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		83F9DBD02E127A540024822B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33AB1658F22212F6174B03FB /* Pods-DomainManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomainManager.debug.xcconfig"; path = "Target Support Files/Pods-DomainManager/Pods-DomainManager.debug.xcconfig"; sourceTree = "<group>"; };
+		3D45D4252ECE527A667223FB /* libPods-DomainManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DomainManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6393C00CD56C27F8D3A30056 /* Pods-DomainManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomainManager.release.xcconfig"; path = "Target Support Files/Pods-DomainManager/Pods-DomainManager.release.xcconfig"; sourceTree = "<group>"; };
 		83F9DBB92E127A520024822B /* DomainManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomainManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9DBCF2E127A540024822B /* DomainManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9DBD92E127A540024822B /* DomainManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,11 +57,15 @@
 		};
 		83F9DBD22E127A540024822B /* DomainManagerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = DomainManagerTests;
 			sourceTree = "<group>";
 		};
 		83F9DBDC2E127A540024822B /* DomainManagerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = DomainManagerUITests;
 			sourceTree = "<group>";
 		};
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1315A43995003E8526D6A1 /* libPods-DomainManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +104,8 @@
 				83F9DBD22E127A540024822B /* DomainManagerTests */,
 				83F9DBDC2E127A540024822B /* DomainManagerUITests */,
 				83F9DBBA2E127A520024822B /* Products */,
+				F7908D5CFC2C9F44B303409C /* Pods */,
+				8C314CDE248EA59D8661244C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8C314CDE248EA59D8661244C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D45D4252ECE527A667223FB /* libPods-DomainManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7908D5CFC2C9F44B303409C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33AB1658F22212F6174B03FB /* Pods-DomainManager.debug.xcconfig */,
+				6393C00CD56C27F8D3A30056 /* Pods-DomainManager.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83F9DBE22E127A540024822B /* Build configuration list for PBXNativeTarget "DomainManager" */;
 			buildPhases = (
+				A37E7B8D7F5C994846369315 /* [CP] Check Pods Manifest.lock */,
 				83F9DBB52E127A520024822B /* Sources */,
 				83F9DBB62E127A520024822B /* Frameworks */,
 				83F9DBB72E127A520024822B /* Resources */,
@@ -124,8 +157,6 @@
 				83F9DBBB2E127A520024822B /* DomainManager */,
 			);
 			name = DomainManager;
-			packageProductDependencies = (
-			);
 			productName = DomainManager;
 			productReference = 83F9DBB92E127A520024822B /* DomainManager.app */;
 			productType = "com.apple.product-type.application";
@@ -147,8 +178,6 @@
 				83F9DBD22E127A540024822B /* DomainManagerTests */,
 			);
 			name = DomainManagerTests;
-			packageProductDependencies = (
-			);
 			productName = DomainManagerTests;
 			productReference = 83F9DBCF2E127A540024822B /* DomainManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -170,8 +199,6 @@
 				83F9DBDC2E127A540024822B /* DomainManagerUITests */,
 			);
 			name = DomainManagerUITests;
-			packageProductDependencies = (
-			);
 			productName = DomainManagerUITests;
 			productReference = 83F9DBD92E127A540024822B /* DomainManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -245,6 +272,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A37E7B8D7F5C994846369315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomainManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83F9DBB52E127A520024822B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -285,12 +337,14 @@
 /* Begin XCBuildConfiguration section */
 		83F9DBE32E127A540024822B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AB1658F22212F6174B03FB /* Pods-DomainManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAT5KCQ957;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DomainManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -298,7 +352,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,12 +370,14 @@
 		};
 		83F9DBE42E127A540024822B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6393C00CD56C27F8D3A30056 /* Pods-DomainManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAT5KCQ957;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DomainManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -329,7 +385,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
